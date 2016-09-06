@@ -1,0 +1,24 @@
+.card {
+	background: $color-card;
+	margin: 0 0 30px;
+	text-align: center;
+}
+
+@media (min-width: 970px) {
+	.cards {
+		display: table;
+	    border-spacing: 15px 0;
+	    margin: 0 -15px;
+	}
+
+	.card {
+		display: table-cell;
+		width: 33.3%;
+		margin: 0;
+		text-align: left;
+	}
+}
+
+.card-body {
+	padding: 30px;
+}

@@ -1,0 +1,83 @@
+/* Variables
+   ========================================================================== */
+
+$color-white    : #FFFFFF;
+$color-black    : #000000;
+$color-paragraph: #111111;
+$color-card     : #f8f8f8;
+
+$pageWidth-default: 1024px;
+$heroBanner-height: 500px;
+
+/* Imports
+   ========================================================================== */
+
+@import "../../node_modules/normalize.css/normalize.css";
+@import "partials/grid";
+@import "partials/button";
+@import "partials/modal";
+@import "partials/icons";
+@import "partials/typo";
+@import "partials/utilities";
+
+@import "partials/imageGallery";
+@import "partials/card";
+@import "partials/featureList";
+
+/* Navigation bar
+   ========================================================================== */
+
+.navBar {
+	background: $color-white;
+	padding: 15px 0;
+}
+
+.logo {
+	width: 80px;
+}
+
+.heroBanner {
+	background: url("../images/mini_hero.jpg"), no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: $heroBanner-height;
+}
+
+.heroBanner-title {
+	color: $color-white;
+	line-height: $heroBanner-height;
+	text-align: center;
+	margin: 0;
+}
+
+/* Sections
+   ========================================================================== */
+
+.section-title {
+	text-align: center;
+	margin: 100px 0;
+}
+
+/* Misc
+   ========================================================================== */
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+.videoPlayer {
+	width: 100%;
+}
+
+/* Footer
+   ========================================================================== */
+
+.siteFooter {
+	color: $color-white;
+	background: $color-black;
+
+	margin-top: 100px;
+	padding: 20px 0;
+	text-align: center;
+}

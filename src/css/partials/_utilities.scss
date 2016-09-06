@@ -1,0 +1,15 @@
+.u-spaceAfter {
+	margin-bottom: 30px;
+}
+
+.u-extraSpaceAfter {
+	margin-bottom: 60px;
+}
+
+%clearfix {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
